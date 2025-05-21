@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+}
+
+.App {
+  margin: 15px auto 0;
+  width: 800px;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  border: 2px red solid;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.post__content {
+
+}
+
+.post__buttons {
+  display: flex;
+}
+
+.post-enter {
+  transform: translateX(-350px);
+}
+
+.post-enter-active {
+  transform: translateX(0);
+  transition: all 500ms ease-in;
+}
+
+.post-exit {
+  opacity: 1;
+}
+
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
+
+.page__content {
+  display: flex;
+  margin-top: 10px;
+}
+
+.page {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.page__current {
+  border: 2px solid #ff5722;
+  font-weight: bold;
+  border-radius: 24px;
+}
+
+.navbar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(207, 203, 203);
+}
+
+.navbar__links {
+  display: flex;
+  margin: 0 43px 0 auto;
+  gap: 29px;
+}
+
+
+
+
