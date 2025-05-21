@@ -11,7 +11,6 @@ export const MySelectAmount = ({ defaultValue, options, value, onChange }) => {
         disabled>
         {defaultValue}
       </option>
-
       {options.map((opt) => (
         <option
           value={opt.value}
